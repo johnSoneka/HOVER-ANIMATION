@@ -1,0 +1,86 @@
+[class^='hover-'], [class*=' hover-'] {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color: #2266a5;
+    color: #fff;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+  }
+  
+  [class^='hover-'] > img, [class*=' hover-'] > img {
+    vertical-align: top;
+    max-width: 100%;
+  }
+  
+  
+  
+  [class^='hover-'] figcaption, [class*=' hover-'] figcaption {
+    background-color: #135796;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+  }
+  [class^='hover-'], [class*=' hover-'], [class^='hover-']:before,
+  [class^='hover-']:after, [class*=' hover-']:before, [class*=' hover-']:after,
+  [class^='hover-'] *, [class*=' hover-'] *, [class^='hover-'] *:before,
+  [class^='hover-'] *:after, [class*=' hover-'] *:before, [class*=' hover-'] *:after {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+    /* imghvr-fade-*
+     ----------------------------- */
+  [class^='hover-fade'] figcaption, [class*=' hover-fade'] figcaption {
+    opacity: 0;
+    color: rgb(253, 253, 253);
+      
+  }
+  
+  [class^='hover-fade']:hover > img, [class*=' hover-fade']:hover > img {
+    opacity: 0;
+  }
+  
+  [class^='hover-fade']:hover figcaption, [class*=' hover-fade']:hover figcaption {
+    opacity: 1;
+  }
+  
+  [class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption {
+    transform: translate(0, 0);
+  }
+  
+  /* imghvr-fade
+     ----------------------------- */
+  /* imghvr-fade-in-up
+     ----------------------------- */
+  .hover-fade-in-up figcaption {
+    transform: translate(0, 15%);
+  }
+  
+  /* imghvr-fade-in-down
+     ----------------------------- */
+  .hover-fade-in-down figcaption {
+    transform: translate(0, -15%);
+  }
+  
+  /* imghvr-fade-in-left
+     ----------------------------- */
+  .hover-fade-in-left figcaption {
+      transform: translate(-15%, 0);
+  }
+  
+  /* imghvr-fade-in-right
+     ----------------------------- */
+  .imghvr-fade-in-right figcaption {
+      transform: translate(15%, 0);
+  }
+  
+  
+  
